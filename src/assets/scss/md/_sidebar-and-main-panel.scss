@@ -288,6 +288,9 @@
     &[data-color="purple"]{
         @include set-background-color-button($brand-primary);
     }
+    &[data-color="cyan"]{
+      @include set-background-color-button($cyan-800);
+    }
 }
 
 .off-canvas-sidebar{

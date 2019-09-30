@@ -6,6 +6,16 @@
         <md-table-cell md-label="Country">{{ item.country }}</md-table-cell>
         <md-table-cell md-label="City">{{ item.city }}</md-table-cell>
         <md-table-cell md-label="Salary">{{ item.salary }}</md-table-cell>
+        <md-table-cell md-label="Actions">
+          <md-button class="md-just-icon md-simple md-primary">
+            <md-icon>edit</md-icon>
+            <md-tooltip md-direction="top">Edit</md-tooltip>
+          </md-button>
+          <md-button class="md-just-icon md-simple md-danger">
+            <md-icon>close</md-icon>
+            <md-tooltip md-direction="top">Close</md-tooltip>
+          </md-button>
+        </md-table-cell>
       </md-table-row>
     </md-table>
   </div>

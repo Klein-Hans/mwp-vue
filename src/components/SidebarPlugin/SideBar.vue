@@ -47,7 +47,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Vue MD"
+      default: "Megaworld"
     },
     backgroundImage: {
       type: String,
@@ -55,13 +55,13 @@ export default {
     },
     imgLogo: {
       type: String,
-      default: require("@/assets/img/vue-logo.png")
+      default: require("@/assets/img/brand/logo-blue.png")
     },
     activeColor: {
       type: String,
-      default: "green",
+      default: "cyan",
       validator: value => {
-        let acceptedValues = ["", "purple", "blue", "green", "orange", "red"];
+        let acceptedValues = ["purple", "blue", "green", "orange", "red", "cyan"];
         return acceptedValues.indexOf(value) !== -1;
       }
     },

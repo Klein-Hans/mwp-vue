@@ -5,7 +5,7 @@
         class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-100"
       >
         <md-card>
-          <md-card-header data-background-color="green">
+          <md-card-header data-background-color="cyan">
             <h4 class="title">Simple Table</h4>
             <p class="category">Here is a subtitle for this table</p>
           </md-card-header>
@@ -19,7 +19,7 @@
         class="md-layout-item md-medium-size-100 md-xsmall-size-100 md-size-100"
       >
         <md-card class="md-card-plain">
-          <md-card-header data-background-color="green">
+          <md-card-header data-background-color="cyan">
             <h4 class="title">Table on Plain Background</h4>
             <p class="category">Here is a subtitle for this table</p>
           </md-card-header>
